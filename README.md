@@ -14,6 +14,14 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o SistemaHotel, siga estas etapas:
 
+Clone este repositório ou faça o download dos arquivos.
+
+Certifique-se de ter o Python instalado no sistema.
+
+Execute o arquivo principal:
+
+python main.py
+
 Linux e macOS:
 
 ```
@@ -30,39 +38,12 @@ Windows:
 
 Ao executar o sistema, o menu interativo será exibido:
 
-Menu do Sistema de Reservas:
-1. Fazer Reserva
-2. Cancelar Reserva
-3. Listar Quartos
-4. Listar Reservas
-5. Sair
-Escolha uma opção:
+```
+bla
+```
 
-Fazer uma Reserva
 
-Escolha a opção 1.
-
-Informe o nome do hóspede.
-
-Informe o número do quarto.
-
-Insira as datas de check-in e check-out no formato AAAA-MM-DD.
-
-Cancelar uma Reserva
-
-Escolha a opção 2.
-
-Insira o nome do hóspede cuja reserva deve ser cancelada.
-
-Listar Quartos e Reservas
-
-Use as opções 3 e 4, respectivamente, para visualizar os quartos e reservas.
-
-Contribuições
-
-Contribuições são bem-vindas! Para melhorar o sistema ou adicionar novas funcionalidades, sinta-se à vontade para abrir um pull request ou enviar sugestões.
-
-Licença
+## Licença
 
 Este projeto está licenciado sob a MIT License.
 
