@@ -2,13 +2,6 @@
 
 Este projeto é um sistema de reservas de hotel desenvolvido em Python, utilizando conceitos de orientação a objetos. Ele permite gerenciar adição e reservas de quartos, incluindo funcionalidades como criação de reservas, cancelamento, listagem de quartos e exibição de reservas existentes.
 
-# Nome do projeto
-
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
 <img src="imagem.png" alt="Exemplo imagem">
 
