@@ -7,18 +7,17 @@ Este projeto é um sistema de reservas de hotel desenvolvido em Python, utilizan
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+- Você instalou a versão mais recente de `<Python3.8 ou superior>`
+- Você tem uma máquina `<Windows / Linux / Mac>`.
 
 ## 🚀 Instalando <nome_do_projeto>
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o SistemaHotel, siga estas etapas:
 
 Linux e macOS:
 
 ```
-<comando_de_instalação>
+<comando_de_instalação
 ```
 
 Windows:
@@ -27,66 +26,45 @@ Windows:
 <comando_de_instalação>
 ```
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Usando SistemaHotel
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Ao executar o sistema, o menu interativo será exibido:
 
-```
-<exemplo_de_uso>
-```
+Menu do Sistema de Reservas:
+1. Fazer Reserva
+2. Cancelar Reserva
+3. Listar Quartos
+4. Listar Reservas
+5. Sair
+Escolha uma opção:
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
+Fazer uma Reserva
 
-## 📫 Contribuindo para <nome_do_projeto>
+Escolha a opção 1.
 
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Informe o nome do hóspede.
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
+Informe o número do quarto.
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Insira as datas de check-in e check-out no formato AAAA-MM-DD.
 
-## 🤝 Colaboradores
+Cancelar uma Reserva
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Escolha a opção 2.
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Iuri Silva</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
-        <sub>
-          <b>Mark Zuckerberg</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
+Insira o nome do hóspede cuja reserva deve ser cancelada.
 
-## 😄 Seja um dos contribuidores
+Listar Quartos e Reservas
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+Use as opções 3 e 4, respectivamente, para visualizar os quartos e reservas.
 
-## 📝 Licença
+Contribuições
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+Contribuições são bem-vindas! Para melhorar o sistema ou adicionar novas funcionalidades, sinta-se à vontade para abrir um pull request ou enviar sugestões.
+
+Licença
+
+Este projeto está licenciado sob a MIT License.
+
+
 
