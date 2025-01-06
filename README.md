@@ -3,10 +3,6 @@
 Este projeto é um sistema de reservas de hotel desenvolvido em Python, utilizando conceitos de orientação a objetos. Ele permite gerenciar adição e reservas de quartos, incluindo funcionalidades como criação de reservas, cancelamento, listagem de quartos e exibição de reservas existentes.
 
 
-<img src="imagem.png" alt="Exemplo imagem">
-
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
-
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
