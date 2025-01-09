@@ -19,7 +19,7 @@ class QuartoLuxo(Quarto):
         super().__init__(numero_quarto, tarifa_base=250)
 
     def calcular_tarifa_diaria(self, dias):
-        return (self.tarifa_base * dias) * 0.9  # 10% de desconto para estadias longas
+        return (self.tarifa_base * dias) * 0.9 
 
 class SistemaReservas:
     def __init__(self):
@@ -192,6 +192,5 @@ class SistemaReservas:
 
 if __name__ == "__main__":
     sistema = SistemaReservas()
-
 
     sistema.exibir_menu()
