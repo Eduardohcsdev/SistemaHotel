@@ -1,7 +1,6 @@
 import json
 from datetime import datetime
 
-# Classe base para Quarto
 class Quarto:
     def __init__(self, numero_quarto, tarifa_base):
         self.numero_quarto = numero_quarto
@@ -11,12 +10,10 @@ class Quarto:
     def calcular_tarifa_diaria(self, dias):
         return self.tarifa_base * dias
 
-# Subclasse para Quarto Simples
 class QuartoSimples(Quarto):
     def __init__(self, numero_quarto):
         super().__init__(numero_quarto, tarifa_base=100)
 
-# Subclasse para Quarto Luxo
 class QuartoLuxo(Quarto):
     def __init__(self, numero_quarto):
         super().__init__(numero_quarto, tarifa_base=250)
@@ -24,7 +21,6 @@ class QuartoLuxo(Quarto):
     def calcular_tarifa_diaria(self, dias):
         return (self.tarifa_base * dias) * 0.9  # 10% de desconto para estadias longas
 
-# Sistema de Reservas
 class SistemaReservas:
     def __init__(self):
         self.quartos = []
@@ -194,15 +190,8 @@ class SistemaReservas:
             else:
                 print("Opção inválida. Tente novamente.")
 
-# Exemplo de Uso
 if __name__ == "__main__":
     sistema = SistemaReservas()
 
-    # Adicionando quartos
-    # sistema.adicionar_quarto(QuartoSimples(101))
-    # sistema.adicionar_quarto(QuartoSimples(102))
-    # sistema.adicionar_quarto(QuartoLuxo(201))
-    # sistema.adicionar_quarto(QuartoLuxo(202))
 
-    # Iniciando menu do sistema
     sistema.exibir_menu()
